@@ -1,0 +1,126 @@
+.App {
+  /* text-align: center; */
+}
+.display{
+  display:block;
+}
+.hide{
+  display: none;
+}
+.character{
+ width:280px;
+ height:280px;
+}
+.celebration{
+  width:250px;
+ height:150px;
+ object-fit:cover;
+}
+
+/* -------------------Header-------------------- */
+header{
+  width:90vw;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
+.primary-logo{
+  font-size:1rem;
+  line-height:.5rem;
+}
+.secondary-logo{
+  font-size:1rem;
+  line-height:.5rem;
+  font-weight:lighter;
+}
+/* -------------------Navigation-------------------- */
+.primary-navigation{
+  width:80vw;
+  background:rgba(255,255,255,0.2);
+  backdrop-filter:blur(40px);
+    border:solid 2px transparent;
+    background-clip:padding-box;
+    box-shadow:10px 10px 10px rgba(46,54,68,0.03);
+  padding:1rem;
+}
+.primary-navigation ul{
+  padding:0;
+}
+.primary-navigation ul li{
+  list-style:none;
+  display:flex;
+  align-items: center;
+  padding:.5rem 0;
+}
+.primary-navigation ul li:hover{
+  background-color:#000000;
+  color:#ffffff;
+}
+.avatar{
+  width:60px;
+  height:60px;
+  border-radius: 100vmax;
+}
+.profile{
+  display:flex;
+}
+.name{
+  font-size:1rem;
+  line-height: .5rem;
+}
+.pronouns{
+  line-height: .5rem;
+}
+.help{
+  width:50px;
+  height:40px;
+  border:2px solid #27ADE9;
+  background-color:white;
+  color:#27ADE9;
+  border-radius: 100vmax;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+}
+.help:hover{
+  background-color: #000000;
+  color:#ffffff;
+}
+/* -------------------Main-------------------- */
+main{
+  width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+}
+
+/* -------------------Courses-------------------- */
+.courses{
+  width:90%;
+  margin:auto;
+}
+.lesson{
+  background-color:#27ADE9;
+  width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
+.welcome{
+  width:90%;
+  margin:auto;
+}
+.more-info{
+  width: 50px;
+    height: 40px;
+    border-radius: 100vmax;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
